@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/hotdog.svg" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
