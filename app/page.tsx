@@ -44,6 +44,33 @@ export default function Home() {
                         className="rounded-lg shadow-md"
                       />
                     </Zoom>
+                    
+                  </div>
+                  <div className="bg-pink-100 p-6 rounded-lg shadow-md">
+                    {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> */}
+                    <Zoom>
+                      <Image
+                        src="/menu1.jpg"
+                        alt="Menú 2"
+                        width={800}
+                        height={600}
+                        className="rounded-lg shadow-md"
+                      />
+                    </Zoom>
+                    
+                  </div>
+                  <div className="bg-pink-100 p-6 rounded-lg shadow-md">
+                    {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> */}
+                    <Zoom>
+                      <Image
+                        src="/menu2.jpg"
+                        alt="Menú 2"
+                        width={800}
+                        height={600}
+                        className="rounded-lg shadow-md"
+                      />
+                    </Zoom>
+                    
                   </div>
                 </div>
               
