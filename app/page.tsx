@@ -1,9 +1,9 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import Zoom from "react-medium-image-zoom"
-import "react-medium-image-zoom/dist/styles.css"
-import { Heart } from "lucide-react"
+import Image from "next/image";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+import { Heart } from "lucide-react";
 
 export default function Home() {
   return (
@@ -19,10 +19,10 @@ export default function Home() {
                   Bienvenidos
                   <Heart className="w-8 h-8 text-red-500 ml-2" />
                 </h2>
-                
+
                 <div className="space-y-8">
-                  <div className="bg-pink-100 p-6 rounded-lg shadow-md">
-                    {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Primer Menú</h3> */}
+                  {/* <div className="bg-pink-100 p-6 rounded-lg shadow-md">
+                     <h3 className="text-2xl font-bold text-red-500 mb-4">Primer Menú</h3> 
                     <Zoom>
                       <Image
                         src="/sanvalentin2.jpeg"
@@ -34,7 +34,7 @@ export default function Home() {
                     </Zoom>
                   </div>
                   <div className="bg-pink-100 p-6 rounded-lg shadow-md">
-                    {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> */}
+                     <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> 
                     <Zoom>
                       <Image
                         src="/sanvalenti3.jpeg"
@@ -45,7 +45,7 @@ export default function Home() {
                       />
                     </Zoom>
                     
-                  </div>
+                  </div> */}
                   <div className="bg-pink-100 p-6 rounded-lg shadow-md">
                     {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> */}
                     <Zoom>
@@ -57,7 +57,6 @@ export default function Home() {
                         className="rounded-lg shadow-md"
                       />
                     </Zoom>
-                    
                   </div>
                   <div className="bg-pink-100 p-6 rounded-lg shadow-md">
                     {/* <h3 className="text-2xl font-bold text-red-500 mb-4">Segundo Menú</h3> */}
@@ -70,16 +69,13 @@ export default function Home() {
                         className="rounded-lg shadow-md"
                       />
                     </Zoom>
-                    
                   </div>
                 </div>
-              
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
-
